@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Big Bass Clone</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js"></script>
-    <script type="module" src="game.js"></script>
-    <style>
-        body {
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #1e3d59;
-        }
-    </style>
+    <title>Slot de Pescaria</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="slot-machine">
+        <div class="reels">
+            <div class="reel" id="reel1">🐟</div>
+            <div class="reel" id="reel2">🐠</div>
+            <div class="reel" id="reel3">🎣</div>
+        </div>
+        <button id="spin-button">Girar</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
