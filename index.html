@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo de Clique na Imagem</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Big Bass Clone</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js"></script>
+    <script type="module" src="game.js"></script>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #1e3d59;
+        }
+    </style>
 </head>
 <body>
-    <div class="game-container">
-        <h1>Clique na Imagem!</h1>
-        <p>Pontuação: <span id="score">0</span></p>
-        <img id="target" src="target.png" alt="Alvo">
-    </div>
-    <script src="script.js"></script>
 </body>
 </html>
