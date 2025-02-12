@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Clique na Imagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Clique na Imagem!</h1>
+        <p>Pontuação: <span id="score">0</span></p>
+        <img id="target" src="target.png" alt="Alvo">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
